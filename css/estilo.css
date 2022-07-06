@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:khaki;
+}
+.cabecalho{
+    width: 1000px;
+    height: 100px 50px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho h2{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho p{
+    padding-right: 10px;
+}
+.cabecalho p a{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner{
+    width: 800px;
+    height: 250vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 35px;
+    
+}
+.box{
+    background-color: rgb(255, 255, 255);
+}
+.box img{
+    width: 450px;
+    height: 400px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 15px;
+    padding: 20px 50px;
+    margin: 10px 300px;
+    width: 50%;
+}
+.rodape{
+    width: 800px;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    text-align: justify;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 15px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.conteiner p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 15px;
+    padding: 15px;
+}
+.box h2{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 15px;
+    padding: 15px;
+}

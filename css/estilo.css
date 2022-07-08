@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:khaki;
+    background-color: khaki;
 }
 .cabecalho{
     width: 1000px;
@@ -27,8 +27,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .conteiner{
-    width: 800px;
-    height: 250vh;
+    width: 1000px;
+    height: 500vh;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 35px;
@@ -36,22 +36,29 @@ body{
 }
 .box{
     background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
 }
-.box img{
-    width: 450px;
+.box h2{
+    text-align: center;
+}
+.introducao img{
+    width: 750px;
     height: 400px;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+}
+.introducao h2{
+    text-align: center;
 }
 .box p{
-    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 15px;
-    padding: 20px 50px;
-    margin: 10px 300px;
-    width: 50%;
+    margin: 10px 20px;
+    display: flex;
+    
 }
 .rodape{
     width: 800px;
@@ -62,26 +69,34 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-p{
-    text-align: justify;
-    font-size: 12pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-indent: 15px;
-    padding: 15px;
-    background-color: rgb(255, 255, 255);
-}
 .conteiner p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-indent: 15px;
-    padding: 15px;
 }
-.box h2{
+.introducao h2{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-indent: 15px;
-    padding: 15px;
 }
+table{
+    color: black;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.conteiner td{
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+.box img{
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    margin: 0 auto;
+    margin: 0 28%;
+}
+
+

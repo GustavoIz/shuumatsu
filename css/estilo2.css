@@ -1,0 +1,18 @@
+body{
+    background-image: url(../img/15903363.webp);
+    background-size: cover;
+}
+img{
+    height: 250px;
+    width: 450px;
+    margin-left: 440px;
+}
+h1{
+    color: black;
+    margin-top: 200px;
+    border: 2px solid black;
+    margin-left: 440px;
+    margin-right: 460px;
+    background-color: white;
+    padding-left: 40px;
+}
